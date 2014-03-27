@@ -1,0 +1,14 @@
+{
+  "name": "xmpp-ep-logger",
+  "description": "Log XMPP groupchat messages to etherpad-lite",
+  "version": "0.0.1",
+  "author": "Peter Hoffmann <peter@p-h.im>",
+  "private": true,
+  "engines": { "node": ">= 0.6.0" },
+  "dependencies": {
+    "etherpad-lite-client": "0.7.x",
+    "node-xmpp-client": "0.4.x",
+    "node-stringprep": "0.2.x",
+    "delayed-stream": "0.0.x"
+  }
+}
