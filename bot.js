@@ -74,7 +74,7 @@ cl.on('stanza', function(stanza) {
     else ep.setText(
       { padID: pad_id,
 	text: data.text + msg}, function(err2, data2) {
-          if (err2) util.log(err.message);
+          if (err2) util.log(err2.message);
       });
   });
 });
